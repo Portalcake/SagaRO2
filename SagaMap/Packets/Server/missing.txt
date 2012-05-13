@@ -1,0 +1,90 @@
+~~~~~~~~~~ Missing packets (server-side) ~~~~~~~~~~~
+
+== 03 - Map ==
+16 out of 28 are implemented >> 12 are missing
+
+13 CattleyaJobChange
+18 SetShowMapInfoAll(char *)
+
+
+== 05 - Items ==
+coming soon..
+
+== 06 - NPC & Battle ==
+4 out of 17 are implemented >> 13 are missing
+
+== 07 - Quests ==
+14 packets , no more info atm
+
+== 09 - Skill ==
+01 SpecialSkillList
+02 DeleteSkill
+03 OnCastingFail
+04 OnCasting
+05 OnCastCancelFail
+06 OnCastCancel
+07 OnUseActiveSkillFail
+08 OnUseActiveSkill
+09 OnUseToggleSkill
+0A ?
+0B LivingSkillList
+0C SpecialSkillList
+0E OnCastingItemFail
+0F OnCastingItem
+10 OnCastItemCancelFail
+11 OnCastItemCancel
+12 OnUseActiveSkillItemFail
+13 OnUseActiveSkillItem
+14 OnUseToggleSkillItem
+15 ?
+16 OnRangeSkill
+17 OtherSkillList
+18 OnAddSpecialitySkill
+1A OnDelSpecialitySkill
+1B Recv_Learn_SkillBook
+1C Recv_NpcSkillBookShop_List
+1E ?
+
+== 0B - DumpStats ==
+01 CharBattleAttackState
+02 CharBattleDefenseState
+03 CharBaseState
+04 CharStatState
+
+== 0C - Mailbox ==
+01 MailBoxAddToDataRecv(TSRequestMailDataList *)
+02 MailBoxResult(TSMailResult *)
+03 MailBoxReadRecvMailData(TSReadMailData *)
+04 MailBoxResult(TSMailResult *)
+05 MailBoxResult(TSMailResult *)
+06 MailBoxResult(TSMailResult *)
+07 MailBoxAddToDataSend(TSRequestSendMailDataList *)
+08 MailBoxResult(TSMailResult *)
+09 MailBoxReadSendMailData(TSReadMailData *
+0A MailBoxResult(TSMailResult *)
+0B AddNewMail(float)
+
+== 0D - Party  ==
+01 PartyInviteOther
+02 PartyInviteResult 
+03 PartyInviteCancel
+04 PartyUserDel
+05 PartyInfo
+06 PartyAddUserInfo
+07 PartyAddUserInfoDetail
+08 PartyOption
+09 PartyMasterRefresh
+0A PartyUserInfoHp
+0B PartyUserInfoSp
+0C PartyUserInfoLv
+0D PartyUserInfoJob
+0E PartyUserInfoJobLv
+0F PartyUserAddition
+10 PartyUserAdditionBegin
+11 PartyUserAdditionEnd
+12 PartyZoneIDRefresh
+13 PartyMapRefresh
+14 PartyServerDown
+15 PartyUserMove
+16 PartyDestroy
+

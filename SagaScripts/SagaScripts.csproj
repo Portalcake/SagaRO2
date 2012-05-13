@@ -1,0 +1,761 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{75F22DF8-C223-4049-B1C6-5DE5BBDF1971}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SagaScripts</RootNamespace>
+    <AssemblyName>SagaScripts</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="SagaLib, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\SagaLib\bin\Debug\SagaLib.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="npcs\Alf_f01_t\Angelinne.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\Alf_f01_t\AnglachelFalchion.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\Alf_f01_t\AstorEim.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\Alf_f01_t\ClairLyster.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\Alf_f01_t\Eglon1.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\Alf_f01_t\Eglon2.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\Alf_f01_t\Eglon3.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\Alf_f01_t\Eglon4.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\Alf_f01_t\Eglon5.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\Alf_f01_t\Eglon6.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\Alf_f01_t\Eglon7.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\Alf_f01_t\Eglon8.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\Alf_f01_t\GromwellBartus.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\Alf_f01_t\HarotSabirine.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\Alf_f01_t\HelgiPhilippus.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\Alf_f01_t\HoondMakkus.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\Alf_f01_t\Hozent.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\Alf_f01_t\LetteEir.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\Alf_f01_t\MeilianLindi.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\Alf_f01_t\MessahGath.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\Alf_f01_t\MigoAlfred.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\Alf_f01_t\NetyrRid.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\Alf_f01_t\NokkbiKarl.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\Alf_f01_t\OphelIconium.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\Alf_f01_t\Siglet.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\Alf_f01_t\TarosMaskald.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\Alf_f01_t\WittMaxen.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\Alf_f02\AzothHohenheim.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\Alf_f02\BrionacJungteibe.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\Alf_f02\LimeSasha.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\cog_f01_01\Alix.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\cog_f01_01\Anche.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\cog_f01_01\Artnaf.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\cog_f01_01\BenjaminMeier.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\cog_f01_01\Bruger.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\cog_f01_01\Chest.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\cog_f01_01\Claus.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\cog_f01_01\Heidi.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\cog_f01_01\HeinzSchtufelt.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\cog_f01_01\Holstein.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\cog_f01_01\JojeffHofman.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\cog_f01_01\Lungberk.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\cog_f01_01\Mailboxes\KafraMailBoxes.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\cog_f01_01\MapItems\MapItems.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\cog_f01_01\Mastis.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\cog_f01_01\Mikel.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\cog_f01_01\Otto.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\cog_f01_01\Pretan.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\cog_f01_01\QuestBoards\MissionBoard.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\cog_f01_01\Rita.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\cog_f01_01\Rossen.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\cog_f01_01\Shops\Chayenne.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\cog_f01_01\Silvia.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\cog_f01_01\Tilo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\cog_f01_01\Yosef.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\cog_f01_02\Alef.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\cog_f01_02\Benjei.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\cog_f01_02\Berickson.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\cog_f01_02\Edmund.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\cog_f01_02\Emiel.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\cog_f01_02\Evy.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\cog_f01_02\Fabian.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\cog_f01_02\Hanna.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\cog_f01_02\Heisude.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\cog_f01_02\Ireyneal.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\cog_f01_02\Jacques.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\cog_f01_02\Maien.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\cog_f01_02\Mailboxes\KafraMailBoxes.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\cog_f01_02\Mailboxes\MailBox.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\cog_f01_02\MapItems\MapItems.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\cog_f01_02\Moritz.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\cog_f01_02\Oliver.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\cog_f01_02\QuestBoards\MissionBoard.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\cog_f01_02\Quill.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\cog_f01_02\Ruud.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\cog_f01_02\Seberin.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\cog_f01_02\Sef.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\cog_f01_02\Shops\Gretchel.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\cog_f01_02\Sneaker.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\cog_f01_02\Tobi.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\cog_f01_02\Yan.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\cog_f02\Dieter.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\cog_f02\Isidor.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\cog_f02\Lucia.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\cog_f02\Mailboxes\KafraMailBoxes.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\cog_f02\MapItems\MapItems.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\cog_f02\QuestBoards\MissionBoard.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\cog_f03\Aili.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\cog_f03\Binta.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\cog_f03\Lia.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\cog_f03\Mailboxes\KafraMailBoxes.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\cog_f03\MapItems\MapItems.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\cog_f03\Mark.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\cog_f03\QuestBoards\MissionBoard.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\cog_f03\Sandor.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\echo_f01\Dubaba.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\echo_f01\EmmentalCole.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\echo_f01\Gogonyak.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\echo_f01\Irpa.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\echo_f01\KareemAbdul.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\echo_f01\Konze.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\echo_f01\LattiYobb.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\echo_f01\LatziYobb.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\echo_f01\MysteriousCat.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\echo_f01\NannaEtan.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\echo_f01\Pablo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\echo_f01\PritzLeodolf.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\echo_f01\Roy.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\echo_f01\Shops\NegusTradjie.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\echo_f01\VictorHajelm.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\echo_f01\Yordi.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\Hod_d02\LentzBartul.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\Hod_f00\Aigor.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\Hod_f00\Birscha.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\Hod_f00\Cody.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\Hod_f00\Conrad.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\Hod_f00\Kwanto.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\Hod_f00\Mailboxes\KafraMailBoxes.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\Hod_f00\MapItems\MapItems.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\Hod_f00\QuestBoards\MissionBoard.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\Hod_f00\Redick.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\Hod_f00\Sally.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\Hod_f00\Shops\Sez.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\Hod_f00\Waynedi.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\Hod_f00\Whitney.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\Hod_f01\Alfons.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\Hod_f01\Arolas.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\Hod_f01\Az.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\Hod_f01\Clerd.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\Hod_f01\Denev.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\Hod_f01\Eind.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\Hod_f01\Ivo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\Hod_f01\Knightdagger.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\Hod_f01\Mailboxes\KafraMailBoxes.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\Hod_f01\MapItems\MapItems.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\Hod_f01\Menno.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\Hod_f01\Nolang.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\Hod_f01\QuestBoards\MissionBoard.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\Hod_f01\QuestHandlers\6.cs" />
+    <Compile Include="npcs\Hod_f01\QuestHandlers\25.cs" />
+    <Compile Include="npcs\Hod_f01\QuestHandlers\333.cs" />
+    <Compile Include="npcs\Hod_f01\QuestHandlers\334.cs" />
+    <Compile Include="npcs\Hod_f01\Scacciano.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\Hod_f01\Shelphy.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\Hod_f01\Shops\Averro.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\Hod_f01\Shops\Klaret.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\Hod_f01\Shops\Misha.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\Hod_f01\Tevez.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\Hod_f01\Vester.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\Hod_f01\Zarko.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\Hod_f02\Donas.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\Hod_f02\Dunstan.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\Hod_f02\Mailboxes\KafraMailBoxes.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\Hod_f02\Mann.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\Hod_f02\MapItems\MapItems.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\Hod_f02\QuestBoards\MissionBoard.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\Hod_f02\Sill.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\Hod_f02\Teos.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\KafraMailBox.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\Prt_f01\Anne.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\Prt_f01\Binta.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\Prt_f01\Bonifaz.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\Prt_f01\Ditrahel.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\Prt_f01\Dodd.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\Prt_f01\Egon.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\Prt_f01\Elisa.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\Prt_f01\Emma.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\Prt_f01\HolGran.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\Prt_f01\Irma.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\Prt_f01\Joachim.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\Prt_f01\Kurt.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\Prt_f01\Ludwig.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\Prt_f01\Magnilda.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\Prt_f01\Mailboxes\KafraMailBoxes.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\Prt_f01\MapItems\MapItems.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\Prt_f01\Mayer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\Prt_f01\Miu.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\Prt_f01\Monika.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\Prt_f01\Mr.Pitt.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\Prt_f01\Nado.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\Prt_f01\Nikki.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\Prt_f01\Oscar.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\Prt_f01\Paskel.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\Prt_f01\Pelshia.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\Prt_f01\Pikas.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\Prt_f01\Polix.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\Prt_f01\Prado.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\Prt_f01\QuestBoards\MissionBoard.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\Prt_f01\Rekard.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\Prt_f01\Seraphina.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\Prt_f01\Shops\Magnet.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\Prt_f01\Shops\Mainhared.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\Prt_f01\Sophie.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\Prt_f01\Toska.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\Prt_f01\Vanda.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\Prt_f01\Volker.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\Prt_f01\Zilbert.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\Prt_f01\Zipu.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\Prt_f01\Zoschka.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\Prt_f02\Achim.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\Prt_f02\Alment.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\Prt_f02\Hanne.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\Prt_f02\Henna.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\Prt_f02\Lothair.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\Prt_f02\Mailboxes\KafraMailBoxes.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\Prt_f02\MapItems\MapItems.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\Prt_f02\Mitzi.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\Prt_f02\Nernst.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\Prt_f02\Orak.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\Prt_f02\Quadro.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\Prt_f02\QuestBoards\MissionBoard.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\Prt_f02\Sabena.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\Prt_f03\Glasshood.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\Prt_f03\Parios.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\Prt_f04\Arno.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\Prt_f04\Kuno.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\Prt_f04\Mailboxes\KafraMailBoxes.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\Prt_f04\MapItems\MapItems.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\Prt_f04\QuestBoards\MissionBoard.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\Prt_f04\Rufus.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\Prt_f04\Shantos.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\Ships\CogniToPron.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\Ships\HodeToPron.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\Ships\PronToCogni.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\Ships\PronToHode.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\TempWarpers\CognToPront.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\TempWarpers\HodeToPron.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\TempWarpers\PronToCognito.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\TempWarpers\PronToHodem.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\XmasTrees\1269-Alfheim.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\XmasTrees\1269-Cognito_f02.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\XmasTrees\1269-Hodemimes.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="npcs\XmasTrees\1269-Prontera.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Scenario\Scenario.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SagaDB\SagaDB.csproj">
+      <Project>{B3F8CCA6-C69E-49AA-9A5C-C6DB9FB4A39F}</Project>
+      <Name>SagaDB</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SagaMap\SagaMap.csproj">
+      <Project>{92E8F125-1AC7-41E7-A05A-7FEFAECD5ECE}</Project>
+      <Name>SagaMap</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="npcs\Alf_f02\Shops\" />
+    <Folder Include="npcs\cog_f03\Shops\" />
+    <Folder Include="npcs\Hod_f02\Shops\" />
+    <Folder Include="npcs\Prt_f02\Shops\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <PropertyGroup>
+    <PostBuildEvent>@copy "$(TargetPath)" "$(SolutionDir)SagaMap\bin\Debug\cscripts"</PostBuildEvent>
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,30 @@
+using System;
+using System.Collections.Generic;
+using System.Text;
+
+using SagaLib;
+
+namespace SagaMap.Packets.Server
+{
+    public class SkillAdd : Packet
+    {
+        public SkillAdd()
+        {
+            this.data = new byte[11];
+            this.ID = 0x0901;
+            this.offset = 4;
+        }
+
+        public void SetSlot(byte id)//0 for BattleSkill 2 for SpecialSkill
+        {
+            this.PutByte(id, 4);
+        }
+
+        public void SetSkill(uint id)
+        {
+            this.PutUInt(id, 5);
+        }
+
+
+    }
+}
