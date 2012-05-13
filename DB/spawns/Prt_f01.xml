@@ -1,0 +1,12 @@
+﻿<?xml version="1.0"?>
+<spawns>
+<!-- Prontera - Town -->
+  <spawn>
+    <id>10146</id>
+    <map>Prt_f01</map>
+    <x>13224</x>
+    <y>74929</y>
+    <amount>1</amount>
+    <range>3000</range>
+  </spawn>
+</spawns>
