@@ -1,0 +1,33 @@
+SERVER PACKETS 0x09--
+
+*(a[,b,..]) unknown bytes
+^ known structure but not implemented (empty mapclient process)
+
+0x0901 = ?
+0x0902 = ?
+0x0903 = ?
+0x0904 = SkillCast *(18,19)
+0x0905 = ?
+0x0906 = SkillCastCancel *(14,15)
+0x0907 = OffensiveSkillFailed
+0x0908 = OffensiveSkill *(22,23,24,25)
+0x0909 = ?
+0x090A = BattleSkill
+0x090B = LivingSkill
+0x090C = SpecialSkill
+0x090D = ?
+0x090E = ?
+0x090F = ?
+0x0910 = ?
+0x0911 = ?
+0x0912 = ?
+0x0913 = ItemActive *(5)
+0x0914 = ?
+0x0915 = ?
+0x0916 = ?
+0x0917 = ?
+0x0918 = ?
+0x0919 = ?
+0x091A = ?
+0x091B = ? 
+0x091C = ?

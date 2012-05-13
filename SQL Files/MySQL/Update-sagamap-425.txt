@@ -1,0 +1,8 @@
+
+DROP TABLE IF EXISTS `quest`;
+
+CREATE TABLE `quest` (
+`charID` INT UNSIGNED NOT NULL ,
+`questID` INT UNSIGNED NOT NULL ,
+`step` TINYINT UNSIGNED NOT NULL 
+) ENGINE = innodb  CHARACTER SET utf8 COLLATE utf8_unicode_ci;

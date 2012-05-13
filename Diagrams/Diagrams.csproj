@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{FB6BEF2A-D19E-4EE1-9C02-42F0C775A13B}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Diagrams</RootNamespace>
+    <AssemblyName>Diagrams</AssemblyName>
+    <StartupObject>
+    </StartupObject>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ItemGroup>
+    <None Include="SagaDB.cd" />
+    <None Include="SagaLib.cd" />
+    <None Include="SagaLogin.cd" />
+    <None Include="SagaMap.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SagaDB\SagaDB.csproj">
+      <Project>{B3F8CCA6-C69E-49AA-9A5C-C6DB9FB4A39F}</Project>
+      <Name>SagaDB</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SagaLib\SagaLib.csproj">
+      <Project>{47FF64CB-1616-4A17-A92F-63EFF63D6CEF}</Project>
+      <Name>SagaLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SagaLogin\SagaLogin.csproj">
+      <Project>{BC57767E-D81D-4B67-B322-0ADFC25D9C28}</Project>
+      <Name>SagaLogin</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SagaMap\SagaMap.csproj">
+      <Project>{92E8F125-1AC7-41E7-A05A-7FEFAECD5ECE}</Project>
+      <Name>SagaMap</Name>
+    </ProjectReference>
+  </ItemGroup>
+</Project>

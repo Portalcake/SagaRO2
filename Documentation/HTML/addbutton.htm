@@ -1,0 +1,62 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<!-- saved from url=(0029)http://www.helpandmanual.com/ -->
+<head><script type="text/javascript" src="helpman_topicinit.js"></script>
+<!-- Redirect browser to frame page if page is not in the content frame. -->
+<script type="text/javascript">
+<!--
+if(top.frames.length==0) { top.location.href="index.html?addbutton.htm"; }
+else { parent.quicksync('a4.6.2'); }
+//-->
+</script>
+<script type="text/javascript" src="highlight.js"></script>
+   <title>AddButton</title>
+   <meta name="generator" content="Help &amp; Manual" />
+   <meta name="keywords" content="" />
+   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+   <meta http-equiv="Content-Style-Type" content="text/css" />
+   <link type="text/css" href="default.css" rel="stylesheet" />
+</head>
+<body style="margin: 0px 0px 0px 0px; background: #FFFFFF;" onload="highlight();">
+<div id="hmpopupDiv" style="visibility:hidden; position:absolute; z-index:1000; "></div>
+
+
+<table width="100%" border="0" cellspacing="0" cellpadding="5" bgcolor="#649CCC">
+  <tr valign="middle">
+    <td align="left">
+      <p class="p_Heading1"><span class="f_Heading1">AddButton</span></p>
+
+    </td>
+    <td align="right">
+     <span style="font-size: 9pt">
+     <a href="introduction.htm">Top</a>&nbsp;
+     <a href="addgoods.htm">Previous</a>&nbsp;
+     <a href="addenemyinfo.htm">Next</a>
+     </span>
+    </td>
+  </tr>
+</table>
+
+
+<!-- Placeholder for topic body. -->
+<table width="100%" border="0" cellspacing="0" cellpadding="5"><tr valign="top"><td align="left">
+<p><span style="font-size: 9pt; font-family: '新宋体';">This method is used for adding a function to this npc</span></p>
+<p><span style="font-size: 9pt; font-family: '新宋体';">AddButton method has these three variant:</span></p>
+<p><span style="font-size: 9pt; font-family: '新宋体'; color: #0000ff;">&nbsp;</span></p>
+<p><span style="font-size: 9pt; font-family: '新宋体'; color: #0000ff;">public</span><span style="font-size: 9pt; font-family: '新宋体'; color: #000000;"> </span><span style="font-size: 9pt; font-family: '新宋体'; color: #0000ff;">void</span><span style="font-size: 9pt; font-family: '新宋体'; color: #000000;"> AddButton(</span><span style="font-size: 9pt; font-family: '新宋体'; color: #008080;">Functions</span><span style="font-size: 9pt; font-family: '新宋体'; color: #000000;"> func)</span></p>
+<p><span style="font-size: 9pt; font-family: '新宋体'; color: #0000ff;">public</span><span style="font-size: 9pt; font-family: '新宋体'; color: #000000;"> </span><span style="font-size: 9pt; font-family: '新宋体'; color: #0000ff;">void</span><span style="font-size: 9pt; font-family: '新宋体'; color: #000000;"> AddButton(</span><span style="font-size: 9pt; font-family: '新宋体'; color: #008080;">Functions</span><span style="font-size: 9pt; font-family: '新宋体'; color: #000000;"> func, </span><span style="font-size: 9pt; font-family: '新宋体'; color: #008080;">func</span><span style="font-size: 9pt; font-family: '新宋体'; color: #000000;"> dele)</span></p>
+<p><span style="font-size: 9pt; font-family: '新宋体'; color: #0000ff;">public</span><span style="font-size: 9pt; font-family: '新宋体'; color: #000000;"> </span><span style="font-size: 9pt; font-family: '新宋体'; color: #0000ff;">void</span><span style="font-size: 9pt; font-family: '新宋体'; color: #000000;"> AddButton(</span><span style="font-size: 9pt; font-family: '新宋体'; color: #008080;">Functions</span><span style="font-size: 9pt; font-family: '新宋体'; color: #000000;"> func, </span><span style="font-size: 9pt; font-family: '新宋体'; color: #008080;">Delegate</span><span style="font-size: 9pt; font-family: '新宋体'; color: #000000;"> dele, </span><span style="font-size: 9pt; font-family: '新宋体'; color: #0000ff;">bool</span><span style="font-size: 9pt; font-family: '新宋体'; color: #000000;"> hide)</span></p>
+<p><span style="font-size: 9pt; font-family: '新宋体'; color: #000000;">&nbsp;</span></p>
+<p><span style="font-size: 9pt; font-family: '新宋体'; color: #008080;">Functions</span><span style="font-size: 9pt; font-family: '新宋体'; color: #000000;"> func stands for functions that are supported, possible values are:</span></p>
+<p><span style="font-size: 9pt; font-family: '新宋体'; color: #000000;">EverydayConversation,LocationGuide,OfficialQuest,PersonalQuest,ScenarioQuest,EventQuest,Shop,Kafra,U1,BookStore,U2,EnterShip,LeaveShip,EnterTrain,LeaveTrain,Smith</span></p>
+<p><span style="font-size: 9pt; font-family: '新宋体'; color: #000000;">&nbsp;</span></p>
+<p><span style="font-size: 9pt; font-family: '新宋体'; color: #000000;">Not all functions are currently supported</span></p>
+<p><span style="font-size: 9pt; font-family: '新宋体'; color: #000000;">&nbsp;</span></p>
+<p><span style="font-size: 9pt; font-family: '新宋体'; color: #008080;">func</span><span style="font-size: 9pt; font-family: '新宋体'; color: #000000;"> dele is the handling method of this function, type of delegate</span></p>
+<p><span style="font-size: 9pt; font-family: '新宋体'; color: #000000;">&nbsp;</span></p>
+<p><span style="font-size: 9pt; font-family: '新宋体'; color: #0000ff;">bool</span><span style="font-size: 9pt; font-family: '新宋体'; color: #000000;"> hide , if this button should be hidden in NPC dialog box</span></p>
+
+</td></tr></table>
+
+</body>
+</html>

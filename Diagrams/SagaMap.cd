@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Font Name="Tahoma" Size="8.25" />
+  <Class Name="SagaMap.LoginSession">
+    <Position X="4.75" Y="3" Width="1.5" />
+    <TypeIdentifier />
+    <NestedTypes>
+      <Enum Name="SagaMap.LoginSession.SESSION_STATE" Collapsed="true">
+        <TypeIdentifier />
+      </Enum>
+      <Delegate Name="SagaMap.LoginSession.ProcessPacket" Collapsed="true">
+        <TypeIdentifier />
+      </Delegate>
+    </NestedTypes>
+  </Class>
+  <Class Name="SagaMap.MapConfig">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="SagaMap.MapServer">
+    <Position X="6.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+    <NestedTypes>
+      <Struct Name="SagaMap.MapServer.PacketInfo" Collapsed="true">
+        <TypeIdentifier />
+      </Struct>
+      <Struct Name="SagaMap.MapServer.LoginPacketInfo" Collapsed="true">
+        <TypeIdentifier />
+      </Struct>
+    </NestedTypes>
+  </Class>
+  <Class Name="SagaMap.Session">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+    <ShowAsAssociation>
+      <Field Name="Char" />
+    </ShowAsAssociation>
+    <NestedTypes>
+      <Delegate Name="SagaMap.Session.ProcessPacket" Collapsed="true">
+        <TypeIdentifier />
+      </Delegate>
+    </NestedTypes>
+  </Class>
+  <Class Name="SagaDB.Character">
+    <Position X="4.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+  </Class>
+</ClassDiagram>

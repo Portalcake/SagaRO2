@@ -1,0 +1,3 @@
+ALTER TABLE `skills` ADD `slot` TINYINT UNSIGNED NOT NULL DEFAULT '0' AFTER `exp` ;
+
+ALTER TABLE `char` ADD `save_z` FLOAT NOT NULL AFTER `save_y` ;

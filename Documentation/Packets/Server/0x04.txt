@@ -1,0 +1,8 @@
+SERVER PACKETS 0x04--
+
+*(a[,b,..]) unknown bytes
+^ known structure but not implemented (empty mapclient process)
+
+0x0401 = SendChat
+0x0402 = SendSystemMessage
+0x0403 = SendWhisper *(38)

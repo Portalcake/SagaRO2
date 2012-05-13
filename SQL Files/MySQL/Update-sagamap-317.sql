@@ -1,0 +1,6 @@
+CREATE TABLE `shortcuts` (
+`charID` INT UNSIGNED NOT NULL ,
+`slotnumber` TINYINT UNSIGNED NOT NULL ,
+`type` TINYINT UNSIGNED NOT NULL ,
+`itemID` INT UNSIGNED NOT NULL 
+) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci;
