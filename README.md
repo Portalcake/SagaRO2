@@ -23,8 +23,8 @@ The code (and the original game) is no longer under development. Thanks to every
 
 Here are some screenshots from one of servers running the Saga software in its prime:
 
-![ScreenShot](https://raw.github.com/Willyham/SagaRO2/master/Screenshots/chiil.jpg)
-![ScreenShot](https://raw.github.com/Willyham/SagaRO2/master/Screenshots/players.jpg)
-![ScreenShot](https://raw.github.com/Willyham/SagaRO2/master/Screenshots/players2.jpg)
-![ScreenShot](https://raw.github.com/Willyham/SagaRO2/master/Screenshots/christmas.jpg)
-![ScreenShot](https://raw.github.com/Willyham/SagaRO2/master/Screenshots/screen6.jpg)
+![ScreenShot](https://raw.github.com/Portalcake/SagaRO2/master/Screenshots/chiil.jpg)
+![ScreenShot](https://raw.github.com/Portalcake/SagaRO2/master/Screenshots/players.jpg)
+![ScreenShot](https://raw.github.com/Portalcake/SagaRO2/master/Screenshots/players2.jpg)
+![ScreenShot](https://raw.github.com/Portalcake/SagaRO2/master/Screenshots/christmas.jpg)
+![ScreenShot](https://raw.github.com/Portalcake/SagaRO2/master/Screenshots/screen6.jpg)
