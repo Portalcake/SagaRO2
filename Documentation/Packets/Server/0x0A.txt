@@ -1,8 +1,0 @@
-SERVER PACKETS 0x0A--
-
-*(a[,b,..]) unknown bytes
-^ known structure but not implemented (empty mapclient process)
-
-0x0A01 = SendAddShortcut
-0x0A02 = SendDelShortcut
-0x0A03 = SendShortcutList

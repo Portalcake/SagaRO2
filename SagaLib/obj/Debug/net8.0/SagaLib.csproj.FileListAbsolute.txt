@@ -1,0 +1,12 @@
+D:\project\RO2\test\my\SagaRO2\SagaLib\bin\Debug\net8.0\SagaLib.deps.json
+D:\project\RO2\test\my\SagaRO2\SagaLib\bin\Debug\net8.0\SagaLib.dll
+D:\project\RO2\test\my\SagaRO2\SagaLib\bin\Debug\net8.0\SagaLib.pdb
+D:\project\RO2\test\my\SagaRO2\SagaLib\obj\Debug\net8.0\SagaLib.GeneratedMSBuildEditorConfig.editorconfig
+D:\project\RO2\test\my\SagaRO2\SagaLib\obj\Debug\net8.0\SagaLib.AssemblyInfoInputs.cache
+D:\project\RO2\test\my\SagaRO2\SagaLib\obj\Debug\net8.0\SagaLib.AssemblyInfo.cs
+D:\project\RO2\test\my\SagaRO2\SagaLib\obj\Debug\net8.0\SagaLib.csproj.CoreCompileInputs.cache
+D:\project\RO2\test\my\SagaRO2\SagaLib\obj\Debug\net8.0\SagaLib.sourcelink.json
+D:\project\RO2\test\my\SagaRO2\SagaLib\obj\Debug\net8.0\SagaLib.dll
+D:\project\RO2\test\my\SagaRO2\SagaLib\obj\Debug\net8.0\refint\SagaLib.dll
+D:\project\RO2\test\my\SagaRO2\SagaLib\obj\Debug\net8.0\SagaLib.pdb
+D:\project\RO2\test\my\SagaRO2\SagaLib\obj\Debug\net8.0\ref\SagaLib.dll

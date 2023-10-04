@@ -1,25 +1,20 @@
-using System;
-using System.Collections.Generic;
-using System.Text;
-using System.Xml;
+﻿using System.Xml;
 
-namespace SagaLib
+namespace SagaLib;
+public class XmlParser : IXmlParserInterface
 {
-    public class XmlParser
+    private readonly XmlDocument doc;
+
+    public XmlParser(string filename)
     {
-        XmlDocument doc;
+        doc = new XmlDocument();
+        doc.Load(filename);
+    }
 
-        public XmlParser(string filename)
-        {
-            doc = new XmlDocument();
-            doc.Load(filename);
-        }
-
-        public XmlNodeList Parse(string tag)
-        {
-            XmlNodeList list = doc.GetElementsByTagName(tag);
-            return list;
-        }
-
+    public XmlNodeList Parse(string tag)
+    {
+        XmlNodeList list = doc.GetElementsByTagName(tag);
+        return list;
     }
 }
+

@@ -8,13 +8,13 @@ public class WorldConfig : IWorldConfig
     public Dictionary<int, World> Worlds { get; private set; } = new Dictionary<int, World>();
 
     public int ID { get; set; }
-    public string? Name { get; set; }
-    public string? DBHost { get; set; }
+    public string Name { get; set; }
+    public string DBHost { get; set; }
     public int DBPort { get; set; }
     public int ifSQL { get; set; }
-    public string? DBName { get; set; }
-    public string? DBUser { get; set; }
-    public string? DBPass { get; set; }
+    public string DBName { get; set; }
+    public string DBUser { get; set; }
+    public string DBPass { get; set; }
 
     public bool IsFilled() =>
         ID != 0 && !string.IsNullOrEmpty(Name) && !string.IsNullOrEmpty(DBHost) &&
@@ -30,14 +30,14 @@ public class WorldConfig : IWorldConfig
             {
                 var world = new World
                 {
-                    ID = int.Parse(element.Element("id")?.Value ?? "0"),
-                    Name = element.Element("name")?.Value ?? string.Empty,
-                    DBHost = element.Element("dbhost")?.Value ?? string.Empty,
-                    DBPort = int.Parse(element.Element("dbport")?.Value ?? "0"),
-                    ifSQL = int.Parse(element.Element("ifSQL")?.Value ?? "0"),
-                    DBName = element.Element("dbname")?.Value ?? string.Empty,
-                    DBUser = element.Element("dbuser")?.Value ?? string.Empty,
-                    DBPass = element.Element("dbpass")?.Value ?? string.Empty
+                    ID = int.Parse(element.Element("id").Value),
+                    Name = element.Element("name").Value,
+                    DBHost = element.Element("dbhost").Value,
+                    DBPort = int.Parse(element.Element("dbport").Value),
+                    ifSQL = int.Parse(element.Element("ifSQL").Value),
+                    DBName = element.Element("dbname").Value,
+                    DBUser = element.Element("dbuser").Value,
+                    DBPass = element.Element("dbpass").Value
                 };
 
                 if (world.IsFilled())
